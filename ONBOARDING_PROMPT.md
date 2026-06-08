@@ -10,8 +10,8 @@ Open your AI agent (Codex or Claude Code), point it at an empty folder, and past
 
 You're helping me get set up for the SUEWS Community Hackathon. Do each step, check it worked before moving on, and tell me plainly if you need my input:
 
-1. Read the hackathon task brief at [TASK BRIEF LINK] so you understand the task.
-2. Create a GitHub repo for me from the template `UMEP-dev/suews-hackathon-template` (`gh repo create ... --template ...`) and clone it here.
+1. Create a GitHub repo for me from the template `UMEP-dev/suews-hackathon-template` (`gh repo create ... --template ...`) and clone it here.
+2. Read `TASK_BRIEF.md` in the repo you just created, so you understand the task.
 3. Install the suews-agent from https://github.com/UMEP-dev/suews-agent, following its README.
 4. Using the preconfigured sample data, run one small end-to-end suews-agent query (anything that exercises the pipeline) to confirm everything works.
 5. Publish the `docs/` folder as a public GitHub Pages site and give me the URL.
