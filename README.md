@@ -6,13 +6,12 @@ Template repository for the **SUEWS Community Hackathon** (24 June 2026, UCL Eas
 
 ## What this is
 
-Each participant or team creates their own repository **from this template** — use the green **"Use this template"** button, or:
+Each participant or team creates their own repository **from this template** (the green **"Use this template"** button, or `gh repo create`).
 
-```bash
-gh repo create UMEP-dev/<your-name> --template UMEP-dev/suews-hackathon-template --public --clone
-```
+- **Before the day (practice):** create it under **your own GitHub account**, e.g. `gh repo create <your-username>/suews-hackathon-practice --template UMEP-dev/suews-hackathon-template --public --clone`. No special access needed.
+- **On the day (judged entry):** you create it under the **UMEP-dev** organisation, once we have added you to the hackathon team.
 
-Your repository is what we judge.
+Your on-the-day repository is what we judge.
 
 ## The task in one line
 

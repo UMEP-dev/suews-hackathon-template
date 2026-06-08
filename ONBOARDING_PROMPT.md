@@ -2,7 +2,7 @@
 
 Get set up for the SUEWS Community Hackathon in one paste.
 
-**Before you start:** do the one-time AI-agent setup first (connect your agent to GitHub) — see the setup guide. Then be signed in to GitHub, and make sure we have added you to the **UMEP-dev hackathon team** (we do that from the GitHub handle you share in your team-formation post).
+**Before you start:** do the one-time AI-agent setup first (terminal, GitHub, and the suews-agent plugin) — see the setup guide. Your practice repo goes under your own GitHub account, so you need nothing from us first; the UMEP-dev team is only for the repo you create on the day.
 
 Open your AI agent (Codex or Claude Code), point it at an empty folder, and paste the prompt below.
 
@@ -10,15 +10,14 @@ Open your AI agent (Codex or Claude Code), point it at an empty folder, and past
 
 You're helping me get set up for the SUEWS Community Hackathon. Do each step, check it worked before moving on, and tell me plainly if you need my input:
 
-1. Create a GitHub repo for me from the template `UMEP-dev/suews-hackathon-template` (`gh repo create ... --template ...`) and clone it here.
-2. Read `TASK_BRIEF.md` in the repo you just created, so you understand the task.
-3. Install the suews-agent from https://github.com/UMEP-dev/suews-agent, following its README.
-4. Using the preconfigured sample data, run one small end-to-end suews-agent query (anything that exercises the pipeline) to confirm everything works.
-5. Publish the `docs/` folder as a public GitHub Pages site and give me the URL.
-6. Save a transcript of this session into `transcripts/` and commit it.
+1. Create a public GitHub repo under my own account called `suews-hackathon-practice`, from the template `UMEP-dev/suews-hackathon-template` (`gh repo create <my-username>/suews-hackathon-practice --template UMEP-dev/suews-hackathon-template --public --clone`), and open it.
+2. Read `TASK_BRIEF.md` in that repo so you understand the task.
+3. Using the suews-agent, run one small example SUEWS simulation to confirm the tool works end to end.
+4. Publish the `docs/` folder as a public GitHub Pages site (main branch, `/docs`) and give me the URL.
+5. Save a transcript of this session into `transcripts/`, then commit and push.
 
 Finish by printing: my repo URL, my Pages URL, and a one-line status per step.
 
 ---
 
-This is a pipeline check, not a test of expertise. If the agent gets stuck, post in the hackathon channel and a table lead will help.
+**If the agent pauses to ask:** repository visibility = public; GitHub Pages source = main branch, `/docs`. **You are done when** your Pages URL renders (not a 404). If the agent gets stuck, post in the hackathon channel and a table lead will help.
