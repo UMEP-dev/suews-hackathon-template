@@ -28,9 +28,7 @@ Use the **suews-agent** to produce a heat-hazard layer for the focus city, trans
 
 ## Get started
 
-1. Create your repo from this template.
-2. Install the suews-agent and your AI coding tool (see the onboarding pack).
-3. Run a practice submission before the day.
+The whole setup is one paste. See [`ONBOARDING_PROMPT.md`](ONBOARDING_PROMPT.md): open Codex or Claude Code, point it at an empty folder, and paste the prompt. It creates your repo from this template, installs the suews-agent, runs a first end-to-end query, publishes your Pages site, and saves your transcript.
 
 ## Links
 
