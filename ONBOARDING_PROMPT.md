@@ -2,9 +2,9 @@
 
 Get set up for the SUEWS Community Hackathon in one paste.
 
-**Before you start:** do the one-time AI-agent setup first (terminal, GitHub, and the suews-agent plugin) — see the setup guide. Your practice repo goes under your own GitHub account, so you need nothing from us first; the UMEP-dev team is only for the repo you create on the day.
+**Before you start:** do the one-time AI-agent setup first (the Codex app, GitHub, and the suews-agent) — see the setup guide. Your practice repo goes under your own GitHub account, so you need nothing from us first; the UMEP-dev team is only for the repo you create on the day.
 
-Open your AI agent (Codex or Claude Code), point it at an empty folder, and paste the prompt below.
+In the Codex app, start a new task (or in Claude Code, your session), and paste the prompt below.
 
 ---
 
